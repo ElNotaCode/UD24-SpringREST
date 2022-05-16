@@ -28,7 +28,7 @@ public class EmpleadoServiceImpl implements EmpleadoService {
 	}
 
 	@Override
-	public Empleado ReadCliente(Long id) {
+	public Empleado readEmpleado(Long id) {
 		// READ
 		//return empleadoDao.findById(id).get();
 		return empleadoDao.getById(id);

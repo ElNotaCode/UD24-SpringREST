@@ -10,18 +10,18 @@ import javax.persistence.Table;
 //@author Eloi Martorell
 
 @Entity
-@Table (name = "empleados")
+@Table(name = "empleados")
 public class Empleado {
 	
 	//Atributos de entidad cliente
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)//busca ultimo valor e incrementa desde id final de db
 	private Long id;
-	@Column
+	@Column(name = "nombre")
 	private String nombre;
-	@Column
+	@Column(name = "trabajo")
 	private String trabajo;
-	@Column
+	@Column(name = "salario")
 	private Double salario;
 	
 	//CONSTRUCTORES

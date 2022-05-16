@@ -11,7 +11,7 @@ public interface EmpleadoService {
 	
 	public Empleado createEmpleado(Empleado empleado);	//Guarda un empleado CREATE
 	
-	public Empleado ReadCliente(Long id); //Leer datos de un empleado READ
+	public Empleado readEmpleado(Long id); //Leer datos de un empleado READ
 	
 	public List<Empleado> listarEmpleadosNombre(String nombre);//Listar empleados por campo nombre
 	
