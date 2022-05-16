@@ -2,8 +2,11 @@ package service;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.crud.spring.dto.Empleado;
 
+@Service
 public interface EmpleadoService {
 	
 	//Metodos del CRUD
